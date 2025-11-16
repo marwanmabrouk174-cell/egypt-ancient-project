@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta http-equiv="Cache-Control" content="max-age=31536000, public">
+  <meta name="description" content="موقع لإحياء الأدب والفن المصري القديم، يضم الأناشيد، القصص، والكتب المصرية القديمة بأسلوب حديث.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>الأدب والفن المصري القديم</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<header>
+  <p><span class="ankh"> ☥ </span> الادب المصري القديم <span class="ankh"> ☥ </span></p>
+</header>
+
+<nav class="main-nav">
+  <a href="#songs">اغاني</a>
+  <a href="#stories">قصص ادبية</a>
+  <a href="#books">كتب و حكم</a>
+</nav>
+
+
+<section id="songs">
+  <h2>أغاني مصرية قديمة</h2>
+  <input type="text" id="songSearch" placeholder="ابحث عن أغنية..." onkeyup="searchSongs()">
+  <div id="songsList"></div>
+</section>
+
+<section id="stories">
+  <h2>قصص وحكم</h2>
+  <input type="text" id="storySearch" placeholder="ابحث عن قصة..." onkeyup="searchStories()">
+  <div id="storiesList"></div>
+</section>
+
+<section id="books">
+  <h2>كتب وحكم</h2>
+  <div id="booksList"></div>
+</section>
+
+<script src="main.js"></script>
+</body>
+</html>

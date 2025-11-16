@@ -1,0 +1,136 @@
+body {
+  background: #f8f2df;
+  font-family: "Scheherazade New", serif;
+  color: #2a1e0d;
+  line-height: 2;
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+}
+
+header {
+  background: #c9a66b;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#backBtn {
+  background: white;
+  border: none;
+  color: #7a5c2e;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+#backBtn:hover {
+  background: #f8f2df;
+}
+
+#toc {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #efe3c5;
+  padding: 10px;
+  border-bottom: 2px solid #c9a66b;
+}
+.chapter {
+  background: #c9a66b;
+  color: white;
+  border: none;
+  padding: 8px 10px;
+  margin: 5px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.chapter:hover {
+  background: #b88f55;
+}
+
+#story-content {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: #fffdf5;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #7a5c2e;
+  border-bottom: 2px solid #c9a66b;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+#nav-buttons {
+  position: fixed;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  z-index: 100;
+}
+
+#nav-buttons button {
+  background: #c9a66b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+#nav-buttons button:hover {
+  background: #b88f55;
+}
+.part {
+  animation: fadeIn 0.6s ease;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+body.swiping-left {
+  transform: translateX(-30px);
+  transition: transform 0.2s ease;
+}
+body.swiping-right {
+  transform: translateX(30px);
+  transition: transform 0.2s ease;
+}
+body {
+  transition: transform 0.2s ease;
+}
+#progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4px;
+  background: linear-gradient(to right, #d4af37, #f7e9a0);
+  width: 0%;
+  z-index: 999;
+  transition: width 0.4s ease-in-out;
+  box-shadow: 0 0 8px rgba(255, 215, 0, 0.6);
+}
+/* ==========================
+شريط التحميل الذهبي
+========================== */
+#loading-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4px;
+  width: 0%;
+  background: linear-gradient(90deg, #d4af37, #f8e287, #fff4c2);
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+  transition: width 0.4s ease;
+  z-index: 9999;
+}
