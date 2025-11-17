@@ -2,16 +2,16 @@
 const songs = [
   {
     title: "أنشودة إيزيس",
-    file: "./songs /أميرة سليم أنشودة فرعونية ابتهالات للآلهة ايزيس  _thegoldenparade _موكب_المومياوات_الملكية(128K.mp3",
+    file: "أميرة سليم أنشودة فرعونية ابتهالات للآلهة ايزيس  _thegoldenparade _موكب_المومياوات_الملكية(128K.mp3",
     
-    img: ".isis.jpg",
+    img: "isis.jpg",
     category: "ديني"
   },
   {
     title: "أنشودة آمون",
-    file: "./songs /انشودة امون رع(128K).mp3",
+    file: "انشودة امون رع(128K).mp3",
     
-    img: "./img/Amon.jpg",
+    img: "Amon.jpg",
     category: "ديني"
   }
 ];
@@ -20,18 +20,18 @@ const songs = [
 const stories = [
   {
     title: "الفلاح الفصيح",
-    img: "./img/feature-photo-Modified-1024x585-1.jpg",
-    file: "./texts/eloquent_peasant.txt",
+    img: "feature-photo-Modified-1024x585-1.jpg",
+    file: "eloquent_peasant.txt",
   },
   {
     title: "سنوحي",
-    img: "./img/feature-photo-Modified-1024x585-1.jpg",
-    file: "./texts/sinuhe.txt",
+    img: "feature-photo-Modified-1024x585-1.jpg",
+    file: "sinuhe.txt",
   },
   {
     title: "البحّار الغريق",
-    img: "./img/feature-photo-Modified-1024x585-1.jpg",
-    file: "./texts/The_Shipwrecked_Sailor.txt",
+    img: "feature-photo-Modified-1024x585-1.jpg",
+    file: "The_Shipwrecked_Sailor.txt",
   }
 ];
 
@@ -39,18 +39,18 @@ const stories = [
 const books = [
   {
     title: "كتاب الموتى",
-    img: "./img/dead_book.jpg",
-    file: "./texts/book_of_the_dead.txt",
+    img: "dead_book.jpg",
+    file: "book_of_the_dead.txt",
   },
   {
     title: "تعاليم امينموبي",
-    img: "./img/amenmobiy.jpg",
-    file:"/texts/taalim-amenemope.txt"
+    img: "amenmobiy.jpg",
+    file:"taalim-amenemope.txt"
   },
   {
     title: "تعاليم بتاح حتب",
-    img: "./img/ptahhotep-01.png",
-    file: "./texts/pitahhotp.txt"
+    img: "ptahhotep-01.png",
+    file: "pitahhotp.txt"
     
   }
 ];
