@@ -139,3 +139,19 @@ body {
   transition: width 0.4s ease;
   z-index: 9999;
 }
+/* ==== تحسين الموبايل ==== */
+@media (max-width: 768px) {
+  #story-content {
+    padding: 1rem;       /* قلل الـ padding */
+    margin: 1rem;        /* قلل الـ margin */
+    font-size: 1rem;     /* لو الخط كبير قلله شوي */
+  }
+
+  body {
+    text-align: left;    /* بدل justify لتفادي الحروف المقطوعة */
+  }
+
+  #toc {
+    flex-direction: column; /* لو قائمة الفصول كبيرة تتحول عمود بدل صف */
+  }
+}
