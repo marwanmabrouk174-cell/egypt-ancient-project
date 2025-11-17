@@ -4,7 +4,7 @@ const songs = [
     title: "أنشودة إيزيس",
     file: "./songs /أميرة سليم أنشودة فرعونية ابتهالات للآلهة ايزيس  _thegoldenparade _موكب_المومياوات_الملكية(128K.mp3",
     
-    img: "./img/isis.jpg",
+    img: ".isis.jpg",
     category: "ديني"
   },
   {
