@@ -54,10 +54,15 @@ header {
 #story-content {
   max-width: 900px;
   margin: 2rem auto;
-  background: #fffdf5;
   padding: 2rem;
   border-radius: 20px;
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  background: url("paper.jpg") center/cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  color: #3b2b15; /* لون غامق وواضح فوق الخلفية الورقية */
 }
 
 h2 {
