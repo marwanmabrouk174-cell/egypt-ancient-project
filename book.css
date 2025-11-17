@@ -1,7 +1,7 @@
 body {
   background: #f8f2df;
   font-family: "Scheherazade New", serif;
-  color: #2a1e0d;
+  color: black;
   line-height: 2;
   margin: 0;
   padding: 0;
@@ -51,14 +51,21 @@ header {
   background: #b88f55;
 }
 
-#story-content {
+#book-content {
   max-width: 900px;
   margin: 2rem auto;
-  background: #fffdf5;
-  padding: 3rem;
+  padding: 2rem;
   border-radius: 20px;
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  background: url("/img/paper.jpg") center/cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  color: #3b2b15; /* لون غامق وواضح فوق الخلفية الورقية */
 }
+
+
 
 h2 {
   color: #7a5c2e;
